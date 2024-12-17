@@ -11,7 +11,7 @@
         $name = "Paweenut";
         Hello($name);
         //---------------------------------------
-        echo "<h3>ทดสอบการใช้ Function</h3>"
+        echo "<h3>ทดสอบการใช้ Function</h3>";
         $a = 5;
         $b = 8;
         $c = sum($a,$b);
@@ -25,7 +25,8 @@
         echo "<hr>";
         echo "<h3>ทดสอบการใช้ Function แบบมีพารามิเตอร์หลายตัว</h3>";
         $summaryNumber = sumMyNumber(1,2,3,4,5,6,7,8,9);
-        echo ""
+        echo "ผลรวมของ (1,2,3,4,5,6,7,8,9) = $summaryNumber";
+        echo "<hr>";
         //---------------------------------------
         bye();
     function sumMyNumber(...$x){
